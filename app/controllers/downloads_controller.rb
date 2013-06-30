@@ -2,7 +2,7 @@ class DownloadsController < ApplicationController
 	include StaticPagesHelper
 	
 	def index
-		@download = ""
+		
 	end
 
 	def create
