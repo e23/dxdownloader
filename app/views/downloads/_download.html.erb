@@ -1,2 +1,4 @@
-<%= link_to "download", @download %> - Right Click > Save as to download
-<br>
+<% if !@download.nil? %>
+	<%= link_to "download", @download %> - Right Click > Save as to download
+	<br>
+<% end %>

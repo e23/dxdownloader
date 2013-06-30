@@ -6,7 +6,7 @@ class DownloadsController < ApplicationController
 	def create
 		@download = getLink(params[:link])
 
-		render 'show'
+		render 'index'
 	end
 end
 
