@@ -1,6 +1,6 @@
 <%= form_tag({controller: "downloads", action: "create"}, method: "post") do |f| %>
-	<%= label_tag :link, "Link" %>
 	<%= text_field_tag :link %>
-	<%= submit_tag "Get download"    %>
+	<br/>
+	<div id="sub_butt"><%= submit_tag "Get download" %></div>
 <% end %>
 
