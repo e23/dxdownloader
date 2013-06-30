@@ -1,6 +1,4 @@
-class DownloadsController < ApplicationController
-	include StaticPagesHelper
-	
+class DownloadsController < ApplicationController	
 	def index
 		
 	end
