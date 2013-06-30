@@ -1,6 +1,6 @@
-<%= form_for(@download) do |f| %>
-	<%= f.label :link, "Link" %>
-	<%= f.text_field :link %>
-	<%= f.submit "Get download"    %>
+<%= form_tag({controller: "downloads", action: "create"}, method: "post") do |f| %>
+	<%= label_tag :link, "Link" %>
+	<%= text_field_tag :link %>
+	<%= submit_tag "Get download"    %>
 <% end %>
 
